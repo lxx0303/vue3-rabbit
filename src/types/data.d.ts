@@ -9,4 +9,6 @@ export interface categoryItem{
   id:string
   name:string
   picture:string
+  children:categoryItem[]//无论有多少层都可以，
+  open:boolean//控制头部弹层显示
 }
