@@ -10,7 +10,10 @@ import router from './router'
 
 import { createPinia } from 'pinia'
 
+import XtxUI from './components'
+
 const app = createApp(App)
 app.use(router)
 app.mount('#app')
 app.use(createPinia())
+app.use(XtxUI)

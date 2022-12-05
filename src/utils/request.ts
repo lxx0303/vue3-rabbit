@@ -1,9 +1,10 @@
 import axios from 'axios'
 
+// 原接口地址：http://pcapi-xiaotuxian-front.itheima.net/
 // 备用接口地址: http://pcapi-xiaotuxian-front-devtest.itheima.net/
 const instance = axios.create({
   // 基础地址
-  baseURL: 'http://pcapi-xiaotuxian-front.itheima.net/',
+  baseURL: 'http://pcapi-xiaotuxian-front-devtest.itheima.net/',
   // 超时时间
   timeout: 5000
 })
