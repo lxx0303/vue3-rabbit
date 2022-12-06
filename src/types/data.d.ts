@@ -35,4 +35,20 @@ export interface BannerItem {
   type: string
 }
 
+// 新鲜好物部分
+export interface GoodItem{
+  desc:string
+  id:string
+  name:string
+  picture:string
+  price:string
+}
+
+// 人气推荐
+export interface HotsGoods{
+  alt:string
+  id:string
+  picture:string
+  title:string
+}
 
